@@ -11,7 +11,7 @@ categories: jekyll update
 
 $$ e^2 $$
 
-![My helpful screenshot]({{ omrshms.com }}/downloads/mhatpotential.svg.png){:height="70px" width="70px"} you see
+![My helpful screenshot]({{ finalform.com }}/downloads/mhatpotential.svg.png){:height="70px" width="70px"} you see
 
 
 We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
