@@ -88,7 +88,7 @@
 
 <p>Achieving good form in sport means you can lift weights you couldn’t lift before, make shots you couldn’t make before, and sink puts you couldn’t sink before.</p>
 
-<p>We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find</p>
+<p>We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to give an overall performance score.</p>
 
 <p><strong>Final Form is starting with lifting.</strong></p>
 
@@ -96,7 +96,7 @@
 <strong>For each lift you get a “baseball card” breaking down your lift.</strong></p>
 
 <p>LIFT 1
-BAD CLEAN w/ annotations
+BAD CLEAN w/ annotations:
 <img src="/downloads/clean_bar_too_high.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
 <p>Lift 1 FEED BACK:
@@ -105,7 +105,7 @@ Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.</p>
 
-<p>BAD CLEAN w/ annotations
+<p>Lift 2 BAD CLEAN w/ annotations:
 <img src="/downloads/clean_elbow_too_low.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
 <p>Lift 2 Feedback:
@@ -115,21 +115,21 @@ Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
 Play back video ? [Yes/No]</p>
 
-<p>BAD CLEAN w/ annotations
+<p>Lift 3 BAD CLEAN w/ annotations:
 <img src="/downloads/clean_stance_too_wide.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
-<p>Lift 3 Feedback
+<p>Lift 3 Feedback:
 Kind of Lift: Clean (90% confidence)
 Overall score (Expert vs Novice): 15 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
 Play back video ? [Yes/No]</p>
 
-<p>GOOD CLEAN w/annotations</p>
+<p>Lift 4 GOOD CLEAN w/annotations:</p>
 
 <p><img src="/downloads/clean_perfect.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
-<p>Lift 3 Feedback
+<p>Lift 4 Feedback:
 Kind of Lift: Clean (98% confidence)
 Overall score (Expert vs Novice): 80 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
@@ -149,7 +149,9 @@ Play back video ? [Yes/No]</p>
 
 <p>Segmentation example here:</p>
 
-<p><img src="/downloads/clean_segmentation_example.png" alt="My helpful screenshot" height="800px" width="2000px" /> you see</p>
+<p><img src="/downloads/clean_segmentation_example.png" alt="My helpful screenshot" height="800px" width="2000px" /></p>
+
+<p>You see the head/neck area in grey, the torso in yellow, and the legs in green. This is a work in progress.</p>
 
 <p>We will discuss machine learning, physics: \( sin(x^2) \) , and provide some  <code class="highlighter-rouge">code</code> contributions.</p>
 
