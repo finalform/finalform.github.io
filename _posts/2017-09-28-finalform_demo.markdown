@@ -50,7 +50,7 @@ Overall score (Expert vs Novice):
 Weight Lifted:
 
 
-![My helpful screenshot]({{ finalform.com }}/downloads/clean_segmentation_example.png){:height="800px" width="1000px"} you see
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_segmentation_example.png){:height="800px" width="2000px"} you see
 
 
 We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
