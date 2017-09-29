@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T17:53:49-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T18:02:50-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
 </subtitle><entry><title type="html">Final Form Demo</title><link href="/jekyll/update/2017/09/28/finalform_demo.html" rel="alternate" type="text/html" title="Final Form Demo" /><published>2017-09-28T22:11:35-04:00</published><updated>2017-09-28T22:11:35-04:00</updated><id>/jekyll/update/2017/09/28/finalform_demo</id><content type="html" xml:base="/jekyll/update/2017/09/28/finalform_demo.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
 &lt;/script&gt;
 
@@ -6,41 +6,51 @@
 
 &lt;p&gt;We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find&lt;/p&gt;
 
-&lt;p&gt;You go in and perform the sport of choice:&lt;/p&gt;
+&lt;p&gt;Final Form is starting with lifting.&lt;/p&gt;
+
+&lt;p&gt;Final form works by feeding video(s) of your form directly to our machine learning stack. For each lift you get a “baseball card” breaking down your lift.&lt;/p&gt;
 
 &lt;p&gt;LIFT 1
 BAD CLEAN w/ annotations
-&lt;img src=&quot;/downloads/clean_bar_too_high.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/downloads/clean_bar_too_high.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lift 1 FEED BACK:&lt;/p&gt;
-
-&lt;p&gt;Lift 2 feedack
-BAD CLEAN w/ annotations
-&lt;img src=&quot;/downloads/clean_elbow_too_low.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Lift 1 FEED BACK:
+Rep 1 :  Angle is too …
+Kind of Lift: Clean (93% confidence)
+Overall score (Expert vs Novice): 20%(from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.&lt;/p&gt;
 
 &lt;p&gt;BAD CLEAN w/ annotations
-&lt;img src=&quot;/downloads/clean_stance_too_wide.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/downloads/clean_elbow_too_low.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lift 2 Feedback:
+Kind of Lift: Clean (96% confidence)
+Overall score (Expert vs Novice): 35 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
+Play back video ? [Yes/No]&lt;/p&gt;
+
+&lt;p&gt;BAD CLEAN w/ annotations
+&lt;img src=&quot;/downloads/clean_stance_too_wide.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lift 3 Feedback
+Kind of Lift: Clean (90% confidence)
+Overall score (Expert vs Novice): 15 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
+Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;GOOD CLEAN w/annotations&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/downloads/clean_perfect.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/downloads/clean_perfect.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;FINAL FORM REPORT CARD:&lt;/p&gt;
-
-&lt;p&gt;Rep 1 :  Angle is too …
-Kind of Lift:&lt;br /&gt;
-Overall score (Expert vs Novice):
-Weight Lifted:&lt;/p&gt;
-
-&lt;p&gt;Rep2
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:&lt;/p&gt;
-
-&lt;p&gt;Rep 3:
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:&lt;/p&gt;
+&lt;p&gt;Lift 3 Feedback
+Kind of Lift: Clean (98% confidence)
+Overall score (Expert vs Novice): 80 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: No significant anomalies.
+Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;PUT a lift type classifier plot here!!
 Explain how you use vgg!!!&lt;/p&gt;

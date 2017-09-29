@@ -90,41 +90,51 @@
 
 <p>We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find</p>
 
-<p>You go in and perform the sport of choice:</p>
+<p>Final Form is starting with lifting.</p>
+
+<p>Final form works by feeding video(s) of your form directly to our machine learning stack. For each lift you get a “baseball card” breaking down your lift.</p>
 
 <p>LIFT 1
 BAD CLEAN w/ annotations
-<img src="/downloads/clean_bar_too_high.png" alt="My helpful screenshot" height="800px" width="600px" /></p>
+<img src="/downloads/clean_bar_too_high.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
-<p>Lift 1 FEED BACK:</p>
-
-<p>Lift 2 feedack
-BAD CLEAN w/ annotations
-<img src="/downloads/clean_elbow_too_low.png" alt="My helpful screenshot" height="800px" width="600px" /></p>
+<p>Lift 1 FEED BACK:
+Rep 1 :  Angle is too …
+Kind of Lift: Clean (93% confidence)
+Overall score (Expert vs Novice): 20%(from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.</p>
 
 <p>BAD CLEAN w/ annotations
-<img src="/downloads/clean_stance_too_wide.png" alt="My helpful screenshot" height="800px" width="600px" /></p>
+<img src="/downloads/clean_elbow_too_low.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
+
+<p>Lift 2 Feedback:
+Kind of Lift: Clean (96% confidence)
+Overall score (Expert vs Novice): 35 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
+Play back video ? [Yes/No]</p>
+
+<p>BAD CLEAN w/ annotations
+<img src="/downloads/clean_stance_too_wide.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
+
+<p>Lift 3 Feedback
+Kind of Lift: Clean (90% confidence)
+Overall score (Expert vs Novice): 15 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
+Play back video ? [Yes/No]</p>
 
 <p>GOOD CLEAN w/annotations</p>
 
-<p><img src="/downloads/clean_perfect.png" alt="My helpful screenshot" height="800px" width="600px" /></p>
+<p><img src="/downloads/clean_perfect.png" alt="My helpful screenshot" height="700px" width="600px" /></p>
 
-<p>FINAL FORM REPORT CARD:</p>
-
-<p>Rep 1 :  Angle is too …
-Kind of Lift:<br />
-Overall score (Expert vs Novice):
-Weight Lifted:</p>
-
-<p>Rep2
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:</p>
-
-<p>Rep 3:
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:</p>
+<p>Lift 3 Feedback
+Kind of Lift: Clean (98% confidence)
+Overall score (Expert vs Novice): 80 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: No significant anomalies.
+Play back video ? [Yes/No]</p>
 
 <p>PUT a lift type classifier plot here!!
 Explain how you use vgg!!!</p>

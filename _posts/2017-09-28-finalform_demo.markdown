@@ -12,44 +12,52 @@ Achieving good form in sport means you can lift weights you couldn't lift before
 
 We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find
 
-You go in and perform the sport of choice:
+Final Form is starting with lifting.
+
+Final form works by feeding video(s) of your form directly to our machine learning stack. For each lift you get a "baseball card" breaking down your lift.
 
 LIFT 1
 BAD CLEAN w/ annotations
-![My helpful screenshot]({{ finalform.com }}/downloads/clean_bar_too_high.png){:height="800px" width="600px"}
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_bar_too_high.png){:height="700px" width="600px"}
 
 Lift 1 FEED BACK:
+Rep 1 :  Angle is too ...
+Kind of Lift: Clean (93% confidence)
+Overall score (Expert vs Novice): 20%(from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.
 
-Lift 2 feedack
 BAD CLEAN w/ annotations
-![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="800px" width="600px"}
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="700px" width="600px"}
 
+Lift 2 Feedback:
+Kind of Lift: Clean (96% confidence)
+Overall score (Expert vs Novice): 35 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
+Play back video ? [Yes/No]
 
 BAD CLEAN w/ annotations
-![My helpful screenshot]({{ finalform.com }}/downloads/clean_stance_too_wide.png){:height="800px" width="600px"}
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_stance_too_wide.png){:height="700px" width="600px"}
+
+Lift 3 Feedback
+Kind of Lift: Clean (90% confidence)
+Overall score (Expert vs Novice): 15 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
+Play back video ? [Yes/No]
 
 GOOD CLEAN w/annotations
 
-![My helpful screenshot]({{ finalform.com }}/downloads/clean_perfect.png){:height="800px" width="600px"}
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_perfect.png){:height="700px" width="600px"}
 
+Lift 3 Feedback
+Kind of Lift: Clean (98% confidence)
+Overall score (Expert vs Novice): 80 % (from 0 to 100)
+Weight Lifted: approximately 60 kg / 135 pounds
+Anomaly Detection: No significant anomalies.
+Play back video ? [Yes/No]
 
-FINAL FORM REPORT CARD:
-
-
-Rep 1 :  Angle is too ...
-Kind of Lift:  
-Overall score (Expert vs Novice):
-Weight Lifted:
-
-Rep2
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:
-
-Rep 3:
-Kind of Lift:
-Overall score (Expert vs Novice):
-Weight Lifted:
 
 PUT a lift type classifier plot here!!
 Explain how you use vgg!!!
