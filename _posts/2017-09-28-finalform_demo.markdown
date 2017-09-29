@@ -8,22 +8,54 @@ categories: jekyll update
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+Achieving good form in sport means you can lift weights you couldn't lift before, make shots you couldn't make before, and sink puts you couldn't sink before.
 
-$$ e^2 $$
+We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find
 
-![My helpful screenshot]({{ finalform.com }}/downloads/muay_thai_segmentation.png){:height="250px" width="150px"} you see
-
-We can approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what consitutes perfect form.
-We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
+You go in and perform the sport of choice:
 
 
 BAD CLEAN w/ annotations
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_bar_too_high.png){:height="800px" width="600px"}
 
+
+BAD CLEAN w/ annotations
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="800px" width="600px"}
+
+
+BAD CLEAN w/ annotations
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_stance_too_wide.png){:height="800px" width="600px"}
 
 GOOD CLEAN w/annotations
 
+![My helpful screenshot]({{ finalform.com }}/downloads/clean_perfect.png){:height="800px" width="600px"}
+
 
 FINAL FORM REPORT CARD:
+
+
+Rep 1 :  Angle is too ...
+Kind of Lift:
+Overall score (Expert vs Novice):
+Weight Lifted:
+
+Rep2
+Kind of Lift:
+Overall score (Expert vs Novice):
+Weight Lifted:
+
+Rep 3:
+Kind of Lift:
+Overall score (Expert vs Novice):
+Weight Lifted:
+
+
+![My helpful screenshot]({{ finalform.com }}/downloads/muay_thai_segmentation.png){:height="500px" width="300px"} you see
+
+
+We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
+
+$$ e^2 $$
 
 Jekyll also offers powerful support for code snippets:
 
