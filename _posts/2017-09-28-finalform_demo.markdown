@@ -11,7 +11,7 @@ categories: jekyll update
 
 $$ e^2 $$
 
-![My helpful screenshot]({{ finalform.com }}/downloads/muay_thai_segmentation.png){:height="70px" width="70px"} you see
+![My helpful screenshot]({{ finalform.com }}/downloads/muay_thai_segmentation.png){:height="250px" width="150px"} you see
 
 We can approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what consitutes perfect form.
 We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
