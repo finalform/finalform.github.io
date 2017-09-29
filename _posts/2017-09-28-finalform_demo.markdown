@@ -14,11 +14,13 @@ We approximate the body as a (semi) rigid body. This means by keeping track of t
 
 You go in and perform the sport of choice:
 
-
+LIFT 1
 BAD CLEAN w/ annotations
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_bar_too_high.png){:height="800px" width="600px"}
 
+Lift 1 FEED BACK:
 
+Lift 2 feedack
 BAD CLEAN w/ annotations
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="800px" width="600px"}
 
@@ -35,7 +37,7 @@ FINAL FORM REPORT CARD:
 
 
 Rep 1 :  Angle is too ...
-Kind of Lift:
+Kind of Lift:  
 Overall score (Expert vs Novice):
 Weight Lifted:
 
@@ -49,6 +51,10 @@ Kind of Lift:
 Overall score (Expert vs Novice):
 Weight Lifted:
 
+PUT a lift type classifier plot here!!
+Explain how you use vgg!!!
+
+Explain how you compute angle between line segments representing body parts!!!!
 
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_segmentation_example.png){:height="800px" width="2000px"} you see
 
