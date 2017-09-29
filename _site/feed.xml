@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T18:02:50-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T18:22:27-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
 </subtitle><entry><title type="html">Final Form Demo</title><link href="/jekyll/update/2017/09/28/finalform_demo.html" rel="alternate" type="text/html" title="Final Form Demo" /><published>2017-09-28T22:11:35-04:00</published><updated>2017-09-28T22:11:35-04:00</updated><id>/jekyll/update/2017/09/28/finalform_demo</id><content type="html" xml:base="/jekyll/update/2017/09/28/finalform_demo.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
 &lt;/script&gt;
 
@@ -52,10 +52,18 @@ Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: No significant anomalies.
 Play back video ? [Yes/No]&lt;/p&gt;
 
-&lt;p&gt;PUT a lift type classifier plot here!!
-Explain how you use vgg!!!&lt;/p&gt;
+&lt;p&gt;How does it work?&lt;/p&gt;
 
-&lt;p&gt;Explain how you compute angle between line segments representing body parts!!!!&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Capture 10 representative images. Vectorize using state-of-the-art neural net libraries such as VGG.&lt;/li&gt;
+  &lt;li&gt;Use LSTM to classify lift.&lt;/li&gt;
+  &lt;li&gt;Use gross body part identification to determine angles between gross anatomical features.&lt;/li&gt;
+  &lt;li&gt;Use knowledge of the lift as well as example training data to determine these correct angles &lt;em&gt;as a function in time&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Use image recognition of various plates as well as reading weight designation on plates to determine weight lifted.&lt;/li&gt;
+  &lt;li&gt;Build a classifier trained to distinguish expert and novice lifters to get an overall score for a lift.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Segmentation example here:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/downloads/clean_segmentation_example.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;2000px&quot; /&gt; you see&lt;/p&gt;
 

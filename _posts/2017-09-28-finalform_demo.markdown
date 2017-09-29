@@ -58,11 +58,18 @@ Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: No significant anomalies.
 Play back video ? [Yes/No]
 
+How does it work?
 
-PUT a lift type classifier plot here!!
-Explain how you use vgg!!!
+1. Capture 10 representative images. Vectorize using state-of-the-art neural net libraries such as VGG.
+2. Use LSTM to classify lift.
+3. Use gross body part identification to determine angles between gross anatomical features.
+4. Use knowledge of the lift as well as example training data to determine these correct angles *as a function in time*.
+5. Use image recognition of various plates as well as reading weight designation on plates to determine weight lifted.
+6. Build a classifier trained to distinguish expert and novice lifters to get an overall score for a lift.
 
-Explain how you compute angle between line segments representing body parts!!!!
+
+
+Segmentation example here:
 
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_segmentation_example.png){:height="800px" width="2000px"} you see
 
