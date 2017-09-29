@@ -1,2 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-28T21:41:17-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
-</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T17:53:49-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
+</subtitle><entry><title type="html">Final Form Demo</title><link href="/jekyll/update/2017/09/28/finalform_demo.html" rel="alternate" type="text/html" title="Final Form Demo" /><published>2017-09-28T22:11:35-04:00</published><updated>2017-09-28T22:11:35-04:00</updated><id>/jekyll/update/2017/09/28/finalform_demo</id><content type="html" xml:base="/jekyll/update/2017/09/28/finalform_demo.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;p&gt;Achieving good form in sport means you can lift weights you couldn’t lift before, make shots you couldn’t make before, and sink puts you couldn’t sink before.&lt;/p&gt;
+
+&lt;p&gt;We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find&lt;/p&gt;
+
+&lt;p&gt;You go in and perform the sport of choice:&lt;/p&gt;
+
+&lt;p&gt;LIFT 1
+BAD CLEAN w/ annotations
+&lt;img src=&quot;/downloads/clean_bar_too_high.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lift 1 FEED BACK:&lt;/p&gt;
+
+&lt;p&gt;Lift 2 feedack
+BAD CLEAN w/ annotations
+&lt;img src=&quot;/downloads/clean_elbow_too_low.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;BAD CLEAN w/ annotations
+&lt;img src=&quot;/downloads/clean_stance_too_wide.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GOOD CLEAN w/annotations&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/downloads/clean_perfect.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;FINAL FORM REPORT CARD:&lt;/p&gt;
+
+&lt;p&gt;Rep 1 :  Angle is too …
+Kind of Lift:&lt;br /&gt;
+Overall score (Expert vs Novice):
+Weight Lifted:&lt;/p&gt;
+
+&lt;p&gt;Rep2
+Kind of Lift:
+Overall score (Expert vs Novice):
+Weight Lifted:&lt;/p&gt;
+
+&lt;p&gt;Rep 3:
+Kind of Lift:
+Overall score (Expert vs Novice):
+Weight Lifted:&lt;/p&gt;
+
+&lt;p&gt;PUT a lift type classifier plot here!!
+Explain how you use vgg!!!&lt;/p&gt;
+
+&lt;p&gt;Explain how you compute angle between line segments representing body parts!!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/downloads/clean_segmentation_example.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;2000px&quot; /&gt; you see&lt;/p&gt;
+
+&lt;p&gt;We will discuss machine learning, physics: \( sin(x^2) \) , and provide some  &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; contributions.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;e^2&lt;/script&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
