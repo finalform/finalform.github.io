@@ -12,16 +12,16 @@ Achieving good form in sport means you can lift weights you couldn't lift before
 
 We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to find
 
-Final Form is starting with lifting.
+**Final Form is starting with lifting.**
 
-Final form works by feeding video(s) of your form directly to our machine learning stack. For each lift you get a "baseball card" breaking down your lift.
+Final form works by feeding video(s) of your form directly to our machine learning stack.
+**For each lift you get a "baseball card" breaking down your lift.**
 
 LIFT 1
 BAD CLEAN w/ annotations
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_bar_too_high.png){:height="700px" width="600px"}
 
 Lift 1 FEED BACK:
-Rep 1 :  Angle is too ...
 Kind of Lift: Clean (93% confidence)
 Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
