@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Coming soon: a technical blog"
-date:   2017-08-06 22:11:35 -0400
+title:  "Final Form Demo"
+date:   2017-09-28 22:11:35 -0400
 categories: jekyll update
 ---
 <script type="text/javascript"
@@ -13,9 +13,17 @@ $$ e^2 $$
 
 ![My helpful screenshot]({{ finalform.com }}/downloads/mhatpotential.svg.png){:height="70px" width="70px"} you see
 
-
+We can approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what consitutes perfect form.
 We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
 
+
+BAD CLEAN w/ annotations
+
+
+GOOD CLEAN w/annotations
+
+
+FINAL FORM REPORT CARD:
 
 Jekyll also offers powerful support for code snippets:
 
