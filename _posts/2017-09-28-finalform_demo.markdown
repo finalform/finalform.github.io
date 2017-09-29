@@ -12,7 +12,7 @@ Achieving good form in sport means you can lift weights you couldn't lift before
 
 We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to give an overall performance score.
 
-**Final Form is starting with lifting.**
+**Final Form is starting with lifting. We want to short-cut countless hours of video review and uneven coaching.** 
 
 Final form works by feeding video(s) of your form directly to our machine learning stack.
 **For each lift you get a "baseball card" breaking down your lift.**

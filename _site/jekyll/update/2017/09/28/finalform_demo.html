@@ -90,7 +90,7 @@
 
 <p>We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to give an overall performance score.</p>
 
-<p><strong>Final Form is starting with lifting.</strong></p>
+<p><strong>Final Form is starting with lifting. We want to short-cut countless hours of video review and uneven coaching.</strong></p>
 
 <p>Final form works by feeding video(s) of your form directly to our machine learning stack.
 <strong>For each lift you get a “baseball card” breaking down your lift.</strong></p>
@@ -139,12 +139,12 @@ Play back video ? [Yes/No]</p>
 <p>How does it work?</p>
 
 <ol>
-  <li>Capture 10 representative images. Vectorize using state-of-the-art neural net libraries such as VGG.</li>
-  <li>Use LSTM to classify lift.</li>
-  <li>Use gross body part identification to determine angles between gross anatomical features.</li>
+  <li>Capture 10 evenly spaces images of each video. Vectorize using state-of-the-art neural net libraries such as VGG.</li>
+  <li>Use LSTM on the sequence of vectors to classify lift.</li>
+  <li>Use gross body part identification to determine angles between gross anatomical features. This is a different net that classifies each pixel as  head/neck, torso , left lower arm , left upper arm , left lower leg, and left upper leg, left hand, as well as the right-side version of all body parts that come in pairs.</li>
   <li>Use knowledge of the lift as well as example training data to determine these correct angles <em>as a function in time</em>.</li>
   <li>Use image recognition of various plates as well as reading weight designation on plates to determine weight lifted.</li>
-  <li>Build a classifier trained to distinguish expert and novice lifters to get an overall score for a lift.</li>
+  <li>Build a third net/classifier trained to distinguish expert and novice lifters to get an overall score for a lift.</li>
 </ol>
 
 <p>Segmentation example here:</p>
