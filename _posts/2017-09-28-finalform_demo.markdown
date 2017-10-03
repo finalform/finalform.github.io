@@ -12,7 +12,7 @@ Achieving good form in sport means you can lift weights you couldn't lift before
 
 We approximate the body as a (semi) rigid body. This means by keeping track of the angles between various body parts at different points in time we can determine what constitutes perfect form. We also use neural nets trained to distinguish expert lifters from novices to give an overall performance score.
 
-**Final Form is starting with lifting. We want to short-cut countless hours of video review and uneven coaching.** 
+**Final Form is starting with lifting. We want to short-cut countless hours of video review and uneven coaching.**
 
 Final form works by feeding video(s) of your form directly to our machine learning stack.
 **For each lift you get a "baseball card" breaking down your lift.**
@@ -25,7 +25,7 @@ Lift 1 FEED BACK:
 Kind of Lift: Clean (93% confidence)
 Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.
+Anomaly Detection: Bar to chest distance to large at 00:35. Try to keep bar closer to body.
 
 Lift 2 BAD CLEAN w/ annotations:
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="700px" width="600px"}
@@ -34,7 +34,8 @@ Lift 2 Feedback:
 Kind of Lift: Clean (96% confidence)
 Overall score (Expert vs Novice): 35 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
+Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up.
+Anomaly Detection: Elbows pointed towards ground at time 00:30 seconds. Try to catch clean with higher elbows.
 Play back video ? [Yes/No]
 
 Lift 3 BAD CLEAN w/ annotations:
@@ -42,9 +43,10 @@ Lift 3 BAD CLEAN w/ annotations:
 
 Lift 3 Feedback:
 Kind of Lift: Clean (90% confidence)
-Overall score (Expert vs Novice): 15 % (from 0 to 100)
+Overall score (Expert vs Novice): 40 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
+Anomaly Detection: Lower left leg , Lower right leg angle too wide at time 00:20. Try to bring your legs closer.
+Anomaly Detection: Stance and lower left leg and lower right leg angle too wide at time 00:40. Land with feet closer and a slightly more narrow foot angle.
 Play back video ? [Yes/No]
 
 Lift 4 GOOD CLEAN w/annotations:
@@ -73,25 +75,4 @@ Segmentation example here:
 
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_segmentation_example.png){:height="800px" width="2000px"}
 
-You see the head/neck area in grey, the torso in yellow, and the legs in green. This is a work in progress.
-
-
-We will discuss machine learning, physics: \\( sin(x^2) \\) , and provide some  `code` contributions.
-
-$$ e^2 $$
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+You see the head/neck area in gray, the torso in yellow, and the legs in green. This is a work in progress.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-29T19:02:30-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-03T18:53:06-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
 </subtitle><entry><title type="html">Final Form Demo</title><link href="/jekyll/update/2017/09/28/finalform_demo.html" rel="alternate" type="text/html" title="Final Form Demo" /><published>2017-09-28T22:11:35-04:00</published><updated>2017-09-28T22:11:35-04:00</updated><id>/jekyll/update/2017/09/28/finalform_demo</id><content type="html" xml:base="/jekyll/update/2017/09/28/finalform_demo.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
 &lt;/script&gt;
 
@@ -19,7 +19,7 @@ BAD CLEAN w/ annotations:
 Kind of Lift: Clean (93% confidence)
 Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to body.&lt;/p&gt;
+Anomaly Detection: Bar to chest distance to large at 00:35. Try to keep bar closer to body.&lt;/p&gt;
 
 &lt;p&gt;Lift 2 BAD CLEAN w/ annotations:
 &lt;img src=&quot;/downloads/clean_elbow_too_low.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
@@ -28,7 +28,8 @@ Anomaly Detection: Bar to chest distance to large. Try to keep bar closer to bod
 Kind of Lift: Clean (96% confidence)
 Overall score (Expert vs Novice): 35 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up
+Anomaly Detection: Elbow to bar angle too wide at time 00:30 seconds. Try to bring your elbows up.
+Anomaly Detection: Elbows pointed towards ground at time 00:30 seconds. Try to catch clean with higher elbows.
 Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;Lift 3 BAD CLEAN w/ annotations:
@@ -36,9 +37,10 @@ Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;Lift 3 Feedback:
 Kind of Lift: Clean (90% confidence)
-Overall score (Expert vs Novice): 15 % (from 0 to 100)
+Overall score (Expert vs Novice): 40 % (from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Lower left leg , Lower right leg angle too wide. Try to bring your legs closer.
+Anomaly Detection: Lower left leg , Lower right leg angle too wide at time 00:20. Try to bring your legs closer.
+Anomaly Detection: Stance and lower left leg and lower right leg angle too wide at time 00:40. Land with feet closer and a slightly more narrow foot angle.
 Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;Lift 4 GOOD CLEAN w/annotations:&lt;/p&gt;
@@ -67,18 +69,4 @@ Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/downloads/clean_segmentation_example.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;800px&quot; width=&quot;2000px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;You see the head/neck area in grey, the torso in yellow, and the legs in green. This is a work in progress.&lt;/p&gt;
-
-&lt;p&gt;We will discuss machine learning, physics: \( sin(x^2) \) , and provide some  &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; contributions.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;e^2&lt;/script&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;You see the head/neck area in gray, the torso in yellow, and the legs in green. This is a work in progress.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
