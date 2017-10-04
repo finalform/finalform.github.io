@@ -26,6 +26,7 @@ Kind of Lift: Clean (93% confidence)
 Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
 Anomaly Detection: Bar to chest distance to large at 00:35. Try to keep bar closer to body.
+Play back video ? [Yes/No]
 
 Lift 2 BAD CLEAN w/ annotations:
 ![My helpful screenshot]({{ finalform.com }}/downloads/clean_elbow_too_low.png){:height="700px" width="600px"}

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-03T18:53:06-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-03T21:19:55-04:00</updated><id>/</id><title type="html">finalform</title><subtitle>Reach your final form.
 </subtitle><entry><title type="html">Final Form Demo</title><link href="/jekyll/update/2017/09/28/finalform_demo.html" rel="alternate" type="text/html" title="Final Form Demo" /><published>2017-09-28T22:11:35-04:00</published><updated>2017-09-28T22:11:35-04:00</updated><id>/jekyll/update/2017/09/28/finalform_demo</id><content type="html" xml:base="/jekyll/update/2017/09/28/finalform_demo.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
 &lt;/script&gt;
 
@@ -19,7 +19,8 @@ BAD CLEAN w/ annotations:
 Kind of Lift: Clean (93% confidence)
 Overall score (Expert vs Novice): 20%(from 0 to 100)
 Weight Lifted: approximately 60 kg / 135 pounds
-Anomaly Detection: Bar to chest distance to large at 00:35. Try to keep bar closer to body.&lt;/p&gt;
+Anomaly Detection: Bar to chest distance to large at 00:35. Try to keep bar closer to body.
+Play back video ? [Yes/No]&lt;/p&gt;
 
 &lt;p&gt;Lift 2 BAD CLEAN w/ annotations:
 &lt;img src=&quot;/downloads/clean_elbow_too_low.png&quot; alt=&quot;My helpful screenshot&quot; height=&quot;700px&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
